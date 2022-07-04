@@ -142,6 +142,7 @@ a:hover {
   padding: 4rem;
 }
 .about h1 {
+  padding-top: 3rem;
   text-align: center;
   font-size: 2.5rem;
 }
@@ -212,12 +213,13 @@ button > a {
 /* skills */
 
 .skills {
-  min-height: 40vh;
+  min-height: 50vh;
   background-color: var(--secondary);
   color: white;
   padding: 2rem;
 }
 .skills > h1 {
+  padding-top: 4rem;
   text-align: center;
   font-size: 2.5rem;
 }
@@ -265,6 +267,7 @@ svg {
   font-size: 2.5rem;
   color: var(--tetiary);
   padding: 1rem;
+  padding-top: 3rem;
 }
 
 .project-container {
@@ -302,6 +305,9 @@ button > a {
   text-decoration: none;
   color: inherit;
 }
+.p-link:hover {
+  color: var(--primary);
+}
 
 /* contact */
 
@@ -315,6 +321,7 @@ button > a {
   font-size: 2.5rem;
   color: var(--primary);
   padding: 1rem;
+  padding-top: 3rem;
 }
 .contact-container {
   max-width: 620px;
@@ -378,7 +385,7 @@ footer {
   padding: 1rem 0;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   color: var(--tetiary);
   border-bottom: 1px solid var(--tetiary);
 }
@@ -386,7 +393,7 @@ footer {
 .social {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .social h3 {
@@ -415,6 +422,7 @@ footer {
 .about-info h3 {
   font-size: 1.5rem;
   padding-bottom: 1rem;
+  display: none;
 }
 
 .copyright {
